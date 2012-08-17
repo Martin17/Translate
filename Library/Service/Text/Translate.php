@@ -314,6 +314,7 @@ class Translate {
     /**
      * Set or change the language translated and the language to translate.
      * If the source language is NULL or empty, the service automatically detects the language used.
+     * List of supported Language Codes: <ul><li>{@link http://msdn.microsoft.com/en-us/library/hh456380.aspx Microsoft Translator}</li></ul>
      * 
      * @param string $sourceLang A valid ISO 639-1 Language Code for the text to translate. 
      * @param string $translateLang  A valid ISO 639-1 Language Code for the language you want to translate the text.
