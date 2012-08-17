@@ -18,7 +18,7 @@ class Translate {
 	const BING_SCOPE_URL = "http://api.microsofttranslator.com";
 	const BING_GRANT_TYPE = "client_credentials";
 
-	protected $translationService = "google";
+	public $translationService = "google";
 	protected $useProxy = FALSE;
 	private $proxyHost;
 	private $proxyPort;
