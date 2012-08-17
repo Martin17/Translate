@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.7.0" />
+
+	<title>Class Service\Text\Translate | Translate</title>
+
+	<script type="text/javascript" src="resources/combined.js?3672397537"></script>
+	<script type="text/javascript" src="elementlist.js?3776009599"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?1567499433" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+				<li class="active"><a href="namespace-Service.html">Service<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-Service.Text.html">Text</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Service.Text.Translate.html">Translate</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Service.Text.html" title="Summary of Service\Text"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Translate</h1>
+
+
+	<div class="description">
+	
+<p>Simple PHP class to translate text using the free services of Bing and
+Google.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Service.html">Service</a>\<a href="namespace-Service.Text.html">Text</a><br />
+		
+
+				<b>License:</b>
+				<a href="http://opensource.org/licenses/gpl-license.php">GNU Public License</a><br />
+				<b>Author:</b>
+				Martín Panizzo &lt;<a
+href="mailto:martin&#64;fotolounge.com.ar">martin&#64;<!---->fotolounge.com.ar</a>&gt;<br />
+				<b>Version:</b>
+				0.1-alpha<br />
+		<b>Located at</b> <a href="source-class-Service.Text.Translate.html#9" title="Go to source code">Library/Service/Text/Translate.php</a><br />
+	</div>
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#129" title="Go to source code">__construct</a>( <span>array|object <var>$options</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Class constructor. Accepts an object or an array of options.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Class constructor. Accepts an object or an array of options.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array|object</code><br> Object or array of options passed to the class constructor.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUrl" id="_setUrl">
+
+		<td class="attributes"><code>
+			 private 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUrl">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#147" title="Go to source code">setUrl</a>( <span>string <var>$url</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the URL of the service translation selected.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the URL of the service translation selected.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br> URL of the service translation.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__getBingAuthToken" id="___getBingAuthToken">
+
+		<td class="attributes"><code>
+			 private 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___getBingAuthToken">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#156" title="Go to source code">__getBingAuthToken</a>( )</code>
+
+		<div class="description short">
+			
+<p>Method to set the Auth token needed for connect to the Bing service.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Method to set the Auth token needed for connect to the Bing service.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__translateToBing" id="___translateToBing">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___translateToBing">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#197" title="Go to source code">__translateToBing</a>( <span>string <var>$stringToTranslate</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Method to translate with de Bing Service.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Method to translate with de Bing Service.</p>
+
+<p>If the length of the text to translate exceed 1000 characters, the text is
+splitted in phrases to translate one at time.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$stringToTranslate</var></dt>
+					<dd><code>string</code><br> Text to translate.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The translated text.<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>Throws exception if CURL register an error.<br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__translateToGoogle" id="___translateToGoogle">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___translateToGoogle">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#237" title="Go to source code">__translateToGoogle</a>( <span>string <var>$stringToTranslate</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Method to translate with de Google Service.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Method to translate with de Google Service.</p>
+
+<p>Ok, Google Translation service is not free anymore... But we can connect to
+the online free service with this little <a href="http://rupeshpatel.wordpress.com/2012/06/23/usage-of-google-translator-api-for-free/">trick</a>! The text is divided into phrases to translate one by one. This is due to
+free online API responds with a multidimensional array with the options of
+translation of each sentence, making it difficult to generate the text
+again.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$stringToTranslate</var></dt>
+					<dd><code>string</code><br> Text to translate.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The translated text.<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>Throws exception if CURL register an error.<br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTranslationService" id="_setTranslationService">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTranslationService">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#297" title="Go to source code">setTranslationService</a>( <span>string <var>$translationService</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set or change the translation service to use.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set or change the translation service to use.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$translationService</var></dt>
+					<dd><code>string</code><br> The srvice to use. Can be "google" or "bing"</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTranslationLangs" id="_setTranslationLangs">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTranslationLangs">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#314" title="Go to source code">setTranslationLangs</a>( <span>string <var>$sourceLang</var></span>, <span>string <var>$translateLang</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set or change the language translated and the language to translate. If the
+source language is NULL or empty, the service automatically detects the language
+used.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set or change the language translated and the language to translate. If the
+source language is NULL or empty, the service automatically detects the language
+used.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sourceLang</var></dt>
+					<dd><code>string</code><br> A valid ISO 639-1 Language Code for the text to translate.</dd>
+					<dt><var>$translateLang</var></dt>
+					<dd><code>string</code><br> A valid ISO 639-1 Language Code for the language you want to translate the
+text.</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>Throws exception if $translateLang is not defined.<br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setProxy" id="_setProxy">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setProxy">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#329" title="Go to source code">setProxy</a>( <span>string <var>$host</var></span>, <span>mixed <var>$port</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set a valid proxy for connect if needed.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set a valid proxy for connect if needed.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$host</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$port</var></dt>
+					<dd><code>mixed</code></dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCookie" id="_setCookie">
+
+		<td class="attributes"><code>
+			 public 
+			binary
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCookie">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#345" title="Go to source code">setCookie</a>( )</code>
+
+		<div class="description short">
+			
+<p>Set a cookie for the connection to Google.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set a cookie for the connection to Google.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>binary</code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setBingData" id="_setBingData">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setBingData">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#372" title="Go to source code">setBingData</a>( <span>string <var>$bingClientID</var></span>, <span>string <var>$bingClientSecret</var></span> )</code>
+
+		<div class="description short">
+			
+<p>You can set the parameters <tt>$bingClientID</tt> and
+<tt>$bingClientSecret</tt> if they were not defined in the class constructor.
+Required to use the Bing service.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>You can set the parameters <tt>$bingClientID</tt> and
+<tt>$bingClientSecret</tt> if they were not defined in the class constructor.
+Required to use the Bing service.</p>
+
+<p>You need to enable the Microsoft Translator API to use the service. The
+service is free to the limitation of 2000000 characters per month and requests
+should not exceed 1000 characters at a time.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bingClientID</var></dt>
+					<dd><code>string</code><br> Client ID provided by the Windows Azure Marketplace.</dd>
+					<dt><var>$bingClientSecret</var></dt>
+					<dd><code>string</code><br> Secret phrase provided by the Windows Azure Marketplace.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLastSourceTranslatedText" id="_getLastSourceTranslatedText">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLastSourceTranslatedText">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#386" title="Go to source code">getLastSourceTranslatedText</a>( )</code>
+
+		<div class="description short">
+			
+<p>Return last text translated.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return last text translated.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTranlationStatus" id="_getTranlationStatus">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTranlationStatus">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#394" title="Go to source code">getTranlationStatus</a>( )</code>
+
+		<div class="description short">
+			
+<p>Return succes or error.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return succes or error.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTranslation" id="_getTranslation">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTranslation">#</a>
+		<code><a href="source-class-Service.Text.Translate.html#402" title="Go to source code">getTranslation</a>( <span>string <var>$stringToTranslate</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Main method to translate. This method calls the corresponding method as
+defined for the property <tt>translationService</tt></p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Main method to translate. This method calls the corresponding method as
+defined for the property <tt>translationService</tt></p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$stringToTranslate</var></dt>
+					<dd><code>string</code><br> Text to translate</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="GOOGLE_URL" id="GOOGLE_URL">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Service.Text.Translate.html#18" title="Go to source code"><b>GOOGLE_URL</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">&quot;http://translate.google.com/translate_a/t&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#GOOGLE_URL" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Google URL for translation service</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Google URL for translation service</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="BING_URL" id="BING_URL">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Service.Text.Translate.html#22" title="Go to source code"><b>BING_URL</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">&quot;http://api.microsofttranslator.com/V2/Http.svc&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#BING_URL" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Bing URL for translation service</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Bing URL for translation service</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="BING_AUTH_URL" id="BING_AUTH_URL">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Service.Text.Translate.html#26" title="Go to source code"><b>BING_AUTH_URL</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">&quot;https://datamarket.accesscontrol.windows.net/v2/OAuth2-13/&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#BING_AUTH_URL" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Bing OAuth URL, needed for generate auth token.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Bing OAuth URL, needed for generate auth token.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="BING_SCOPE_URL" id="BING_SCOPE_URL">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Service.Text.Translate.html#30" title="Go to source code"><b>BING_SCOPE_URL</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">&quot;http://api.microsofttranslator.com&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#BING_SCOPE_URL" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Bing Scope URL, needed for generate auth token.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Bing Scope URL, needed for generate auth token.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="BING_GRANT_TYPE" id="BING_GRANT_TYPE">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Service.Text.Translate.html#34" title="Go to source code"><b>BING_GRANT_TYPE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">&quot;client_credentials&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#BING_GRANT_TYPE" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Bing grant type, needed for generate auth token.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Bing grant type, needed for generate auth token.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="translationService" id="$translationService">
+
+		<td class="attributes"><code>
+			public 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#39" title="Go to source code"><var>$translationService</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">&quot;google&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$translationService" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Translation service to use. Valid options: "bing","google". Default:
+"google"</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Translation service to use. Valid options: "bing","google". Default:
+"google"</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-Service.Text.Translate.html#_">Service\Text\Translate::setTranslationService()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sourceLang" id="$sourceLang">
+
+		<td class="attributes"><code>
+			public 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#46" title="Go to source code"><var>$sourceLang</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$sourceLang" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>A valid ISO 639-1 Language Code for the text to translate.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>A valid ISO 639-1 Language Code for the text to translate.</p>
+
+<p>If empty, the service automatically detects the language used.</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-Service.Text.Translate.html#_">Service\Text\Translate::setTranslationLangs()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="translateLang" id="$translateLang">
+
+		<td class="attributes"><code>
+			public 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#56" title="Go to source code"><var>$translateLang</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'es'</span></code></td>
+		<td class="description"><div>
+			<a href="#$translateLang" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>A valid ISO 639-1 Language Code for the language you want to translate the
+text.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>A valid ISO 639-1 Language Code for the language you want to translate the
+text.</p>
+
+<p>This var can't be empty.</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-Service.Text.Translate.html#_">Service\Text\Translate::setTranslationLangs()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="useProxy" id="$useProxy">
+
+		<td class="attributes"><code>
+			protected 
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#65" title="Go to source code"><var>$useProxy</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$useProxy" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Set to TRUE if the server is running behind a proxy.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set to TRUE if the server is running behind a proxy.</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-Service.Text.Translate.html#_">Service\Text\Translate::setProxy()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="proxyHost" id="$proxyHost">
+
+		<td class="attributes"><code>
+			private 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#71" title="Go to source code"><var>$proxyHost</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$proxyHost" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Host of the proxy server. Needed if $useProxy if set to TRUE.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Host of the proxy server. Needed if $useProxy if set to TRUE.</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-Service.Text.Translate.html#_">Service\Text\Translate::setProxy()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="proxyPort" id="$proxyPort">
+
+		<td class="attributes"><code>
+			private 
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#77" title="Go to source code"><var>$proxyPort</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$proxyPort" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Port of the proxy server. Needed if $useProxy if set to TRUE.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Port of the proxy server. Needed if $useProxy if set to TRUE.</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-Service.Text.Translate.html#_">Service\Text\Translate::setProxy()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="useCookie" id="$useCookie">
+
+		<td class="attributes"><code>
+			protected 
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#83" title="Go to source code"><var>$useCookie</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$useCookie" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Sometimes Google Translate need set a cookie... Need to test this!</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sometimes Google Translate need set a cookie... Need to test this!</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cookie" id="$cookie">
+
+		<td class="attributes"><code>
+			private 
+			binary
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#89" title="Go to source code"><var>$cookie</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$cookie" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>cookie generated if $useCookie is set to TRUE</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>cookie generated if $useCookie is set to TRUE</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="url" id="$url">
+
+		<td class="attributes"><code>
+			private 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#95" title="Go to source code"><var>$url</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$url" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>URL of the translation service to use.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>URL of the translation service to use.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="bingClientID" id="$bingClientID">
+
+		<td class="attributes"><code>
+			private 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#101" title="Go to source code"><var>$bingClientID</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$bingClientID" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>You need to enable the Microsoft Translator API to use the service. The
+service is free to the limitation of 2000000 characters per month and requests
+should not exceed 1000 characters at a time.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>You need to enable the Microsoft Translator API to use the service. The
+service is free to the limitation of 2000000 characters per month and requests
+should not exceed 1000 characters at a time.</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-Service.Text.Translate.html#_">Service\Text\Translate::setBingData()</a></code></code><br />
+					</div>
+					<h4>Link</h4>
+					<div class="list">
+							<a href="http://www.microsofttranslator.com/dev/">Microsoft Translator for devs.</a><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="bingClientSecret" id="$bingClientSecret">
+
+		<td class="attributes"><code>
+			private 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#110" title="Go to source code"><var>$bingClientSecret</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$bingClientSecret" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>You need to enable the Microsoft Translator API to use the service. The
+service is free to the limitation of 2000000 characters per month and requests
+should not exceed 1000 characters at a time.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>You need to enable the Microsoft Translator API to use the service. The
+service is free to the limitation of 2000000 characters per month and requests
+should not exceed 1000 characters at a time.</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-Service.Text.Translate.html#_">Service\Text\Translate::setBingData()</a></code></code><br />
+					</div>
+					<h4>Link</h4>
+					<div class="list">
+							<a href="http://www.microsofttranslator.com/dev/">Microsoft Translator for devs.</a><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastSourceString" id="$lastSourceString">
+
+		<td class="attributes"><code>
+			private 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#119" title="Go to source code"><var>$lastSourceString</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$lastSourceString" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Original text to translate.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Original text to translate.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="status" id="$status">
+
+		<td class="attributes"><code>
+			private 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Service.Text.Translate.html#124" title="Go to source code"><var>$status</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$status" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Status of the translation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Status of the translation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+</div>
+
+	<div id="footer">
+		Translate API documentation generated by <a href="http://apigen.org">ApiGen 2.7.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
