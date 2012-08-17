@@ -116,7 +116,7 @@ class Translate {
 			'client_id' => $this -> bingClientID,
 			'client_secret' => $this -> bingClientSecret
 		);
-		$paramArr = http_build_query($paramArr);
+		$params = http_build_query($paramArr);
 
 		if ($this -> useProxy === TRUE) {
 			curl_setopt($ch, CURLOPT_PROXY, $this -> proxyHost);
@@ -124,7 +124,7 @@ class Translate {
 		}
 		curl_setopt($ch, CURLOPT_URL, $this::BING_AUTH_URL);
 		curl_setopt($ch, CURLOPT_POST, TRUE);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $paramArr);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 		$strResponse = curl_exec($ch);
@@ -216,8 +216,8 @@ class Translate {
 		}
 		//var_dump($curl_output);
 		$this -> status = "success";
-		$curl_output = explode('"', $curl_output);
-		$output = urldecode($curl_output[1]);
+		$curl_output_arr = explode('"', $curl_output);
+		$output = urldecode($curl_output_arr[1]);
 		return $output;
 
 	}
